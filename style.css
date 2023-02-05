@@ -1,0 +1,149 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #E74860;
+}
+.container-1{
+    width: 90%;
+    margin: auto;
+}
+nav, .fa-magnifying-glass{
+    color: #434446;
+    font-size: 16px;
+    font-weight: 500;
+}
+.nav-item a:hover{
+    color: #E74860;
+}
+.active{
+    color: #E74860 !important;
+}
+.Quote-btn{
+    background-color: #E74860;
+    border: 2px solid #E74860;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px 20px;
+   
+}
+.nav-logo{
+    width: 160px;
+    height: 50px;
+}
+.carousel-item img{
+    height: 600px;
+    
+}
+.carousel-caption button{
+    margin-bottom: 150px;
+    background-color: #E74860;
+    border: 2px solid #E74860;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px 35px;
+}
+.card{
+    border: none;
+    
+}
+.card img{
+    height: 300px;
+}
+.card-body{
+    margin-top: -50px;
+    background-color: white;
+    width: 90%;
+    margin-left: auto;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    display: flex;
+    align-items: center;
+    transition: 0.3s;
+    position: relative;
+
+}
+.card-body img{
+    width: 60px;
+    height: 50px;
+    margin-right: 10px;
+}
+.card:hover .card-body{
+    opacity: 0;
+    /* margin-top: -60px; */
+    
+}
+.card-body-2{
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.733);
+    color: white;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    transition: 1s;
+    cursor: pointer;
+}
+.card-body-2 img{
+    width: 100px;
+    height: 70px;
+}
+.card-body-2 h2:hover{
+    color: #E74860;
+}
+.card:hover .card-body-2{
+    opacity: 1;
+    top: 50;
+    height: 300px;
+    
+}
+.course-sm-title{
+    color: #E74860;
+    font-weight: 500;
+    
+}
+.course-lg-title{
+    font-weight: 700;
+    color: #18455D;
+    margin-bottom: 50px;
+    /* padding-top: 20px; */
+}
+.social-link {
+    color: #18455D;
+  background-color: #18455D;
+  height: 100px;
+  width: 100px;
+}
+.top-footer{
+    background-color: #E74860;
+    color: white;
+}
+footer{
+    background-color: #0C3246;
+    color: white;
+    
+}
+
+.fa-phone, .footer-envelope{
+    font-size: 50px;
+    padding: 0px 20px;
+    
+}
+.contact-info h5{
+    font-size: 20px;
+    color: white;
+}
+.form-control{
+    background-color: #486270;
+    border: none;
+    outline: none;
+    
+}
